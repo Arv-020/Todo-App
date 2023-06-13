@@ -13,7 +13,7 @@ class ToDoItem extends StatelessWidget {
         },
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         tileColor: Colors.white,
-        leading: Icon(
+        leading: const Icon(
           Icons.check_box,
           color: Colors.blue,
         ),
