@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                               fontSize: 30, fontWeight: FontWeight.w500),
                         ),
                       ),
-                      for (ToDo todo in _foundToDO)
+                      for (ToDo todo in _foundToDO.reversed)
                         ToDoItem(
                           todo: todo,
                           onToDOChange: _handleToDoChange,
