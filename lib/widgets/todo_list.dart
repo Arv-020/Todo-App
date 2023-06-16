@@ -24,6 +24,7 @@ class ToDoItem extends StatelessWidget {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         tileColor: Colors.white,
         leading: Icon(
+          // using ternary to assign either the task is done or not
           todo.isDone ? Icons.check_box : Icons.check_box_outline_blank,
           color: Colors.blue,
         ),
@@ -32,12 +33,13 @@ class ToDoItem extends StatelessWidget {
           style: TextStyle(
             fontSize: 16,
             color: Colors.black,
+            // used ternary to assign line through or not according to task is done or not
             decoration: todo.isDone ? TextDecoration.lineThrough : null,
           ),
         ),
         trailing: Container(
             padding: const EdgeInsets.all(0),
-            margin: const EdgeInsets.symmetric(vertical: 12),
+            // margin: const EdgeInsets.symmetric(vertical: 12),
             height: 35,
             width: 35,
             decoration: BoxDecoration(
