@@ -6,14 +6,14 @@ class ToDo {
 
   static List<ToDo> todoList() {
     return [
-      ToDo(id: '01', todoText: "tanu ko laat marna", isDone: true),
-      ToDo(id: '02', todoText: "tanu bachi h", isDone: true),
+      ToDo(id: '01', todoText: "HomeWork", isDone: true),
+      ToDo(id: '02', todoText: "Study", isDone: true),
       ToDo(
         id: '03',
-        todoText: "tanu ka homework",
+        todoText: "Cricket",
       ),
-      ToDo(id: '04', todoText: "tanu ko daat pdi", isDone: true),
-      ToDo(id: '05', todoText: "tanu ro rhi h", isDone: true),
+      ToDo(id: '04', todoText: "Music", isDone: true),
+      ToDo(id: '05', todoText: "buying the clothes", isDone: true),
     ];
   }
 }
